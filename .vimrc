@@ -1,3 +1,5 @@
+" git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 " don't make vim compatible with vi 
 set nocompatible
 
@@ -21,7 +23,6 @@ set background=dark
 colorscheme distinguished
 
 " Vundle
-" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
